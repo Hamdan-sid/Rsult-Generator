@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="upper">
+    <h1>Result Card</h1>
+    <label for="">
+        Total Number of Physics: <input type="number" id="totalphy">
+    </label>
+    <br>
+    <label for="">
+        Obtained Number of Physics: <input type="number" id="obtainphy">
+    </label>
+    <br>
+    <label for="">
+        Total Number of Chemistry: <input type="number" id="totalchem">
+    </label>
+    <br>
+    <label for="">
+        Obtained Number of Chemistry: <input type="number" id="obtainchem">
+    </label>
+    <br>
+    <label for="">
+        Total Number of Math: <input type="number" id="totalmath">
+    </label>
+    <br>
+    <label for="">
+        Obtained Number of Math: <input type="number" id="obtainmath">
+    </label>
+    <br>
+</div>
+    <button onclick="checkout()" class="buttonclick">Check</button>
+
+    <div class="card">
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Total</th>
+                <th>Obtained</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <th>Physics</th>
+                <td id="totalofphysic"></td>
+                <td id="obtainofphysic"></td>
+                <td id="showPercentagePhy"></td>
+                <td id="showGradePhy"></td>
+            </tr>
+            <tr>
+                <th>Chemistry</th>
+                <td id="totalofchemistry"></td>
+                <td id="obtainofchemistry"></td>
+                <td id="showPercentageChem"></td>
+                <td id="showGradeChem"></td>
+            </tr>
+            <tr>
+                <th>Maths</th>
+                <td id="totalofmath"></td>
+                <td id="obtainofmath"></td>
+                <td id="showPercentageMath"></td>
+                <td id="showGradeMath"></td>
+            </tr>
+            <tr>
+                <th>Total Marks</th>
+                <td id="totalofall"></td>
+                <td id="obtainofall"></td>
+                <td id="showAllPercentage"></td>
+                <td id="showGradeAll"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

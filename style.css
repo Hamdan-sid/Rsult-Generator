@@ -1,0 +1,21 @@
+
+th,td{
+    border: 3px solid rgb(250, 244, 244);
+    padding: 10px 20px;
+}
+h1{
+    line-height: 3rem;
+}
+.container{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    padding-left: 400px
+}
+.buttonclick{
+    margin-top: 50px;
+    width: 120px;
+}
